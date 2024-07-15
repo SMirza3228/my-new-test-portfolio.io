@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    font-family: "Inrer", sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+
+    h1, h2, h3,h4, h5, h6 {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+.header__container {
+    max-width: 1220px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.header__inner {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__list {
+    display: flex;
+    gap: 28px;
+}
+
+.header__link {
+    font-size: 16px;
+    color: #000;
+}
